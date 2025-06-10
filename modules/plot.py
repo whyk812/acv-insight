@@ -2,6 +2,10 @@ import os
 from pathlib import Path
 import matplotlib.pyplot as plt
 import pandas as pd
+import os
+from pathlib import Path
+import matplotlib.pyplot as plt
+import pandas as pd
 
 def plot_histogram(df: pd.DataFrame, column: str, bins: int = 30, output_dir: str = "outputs") -> str:
     """
